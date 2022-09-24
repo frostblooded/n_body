@@ -1,6 +1,7 @@
 mod object;
-mod position;
+mod physics;
 mod state;
+mod vec2d;
 mod world;
 
 use ggez::{conf::WindowMode, *};

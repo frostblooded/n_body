@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 ggez = "0.8.0-rc0"
 rand = "0.8.5"
+rapier2d = { version = "0.14", features = [ "simd-stable", "parallel" ] }
